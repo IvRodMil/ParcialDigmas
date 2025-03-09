@@ -17,5 +17,43 @@ public class Evento {
         this.tipoEvento = tipoEvento;
     }
 
-    // Getters y Setters
+    public int getIdEvento() {
+        return idEvento;
+    }
+
+    public void setIdEvento(int idEvento) {
+        this.idEvento = idEvento;
+    }
+
+    public String getNombreEvento() {
+        return nombreEvento;
+    }
+
+    public void setNombreEvento(String nombreEvento) {
+        this.nombreEvento = nombreEvento;
+    }
+
+    public Timestamp getFechaHora() {
+        return fechaHora;
+    }
+
+    public void setFechaHora(Timestamp fechaHora) {
+        this.fechaHora = fechaHora;
+    }
+
+    public int getNumeroAsistentes() {
+        return numeroAsistentes;
+    }
+
+    public void setNumeroAsistentes(int numeroAsistentes) {
+        this.numeroAsistentes = numeroAsistentes;
+    }
+
+    public String getTipoEvento() {
+        return tipoEvento;
+    }
+
+    public void setTipoEvento(String tipoEvento) {
+        this.tipoEvento = tipoEvento;
+    }
 }

@@ -3,12 +3,12 @@ package business;
 import java.time.LocalDateTime;
 
 public class Reserva {
-    private int idReserva;
     private int idEspacio;
     private int idEvento;
     private LocalDateTime fechaHoraReserva;
     private String estadoReserva;
 
+    // Constructor
     public Reserva(int idEspacio, int idEvento, LocalDateTime fechaHoraReserva, String estadoReserva) {
         this.idEspacio = idEspacio;
         this.idEvento = idEvento;
@@ -16,5 +16,20 @@ public class Reserva {
         this.estadoReserva = estadoReserva;
     }
 
-    // Getters y Setters
+    // Getters
+    public int getIdEspacio() {
+        return idEspacio;
+    }
+
+    public int getIdEvento() {
+        return idEvento;
+    }
+
+    public LocalDateTime getFechaHoraReserva() {
+        return fechaHoraReserva;
+    }
+
+    public String getEstadoReserva() {
+        return estadoReserva;
+    }
 }

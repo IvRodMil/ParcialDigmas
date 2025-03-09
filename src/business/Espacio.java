@@ -15,5 +15,43 @@ public class Espacio {
         this.tipoEvento = tipoEvento;
     }
 
-    // Getters y Setters
+    public int getIdEspacio() {
+        return idEspacio;
+    }
+
+    public void setIdEspacio(int idEspacio) {
+        this.idEspacio = idEspacio;
+    }
+
+    public String getNombreEspacio() {
+        return nombreEspacio;
+    }
+
+    public void setNombreEspacio(String nombreEspacio) {
+        this.nombreEspacio = nombreEspacio;
+    }
+
+    public String getDireccion() {
+        return direccion;
+    }
+
+    public void setDireccion(String direccion) {
+        this.direccion = direccion;
+    }
+
+    public int getCapacidad() {
+        return capacidad;
+    }
+
+    public void setCapacidad(int capacidad) {
+        this.capacidad = capacidad;
+    }
+
+    public String getTipoEvento() {
+        return tipoEvento;
+    }
+
+    public void setTipoEvento(String tipoEvento) {
+        this.tipoEvento = tipoEvento;
+    }
 }
